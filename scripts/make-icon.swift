@@ -18,7 +18,7 @@ func render(_ size: Int) -> Data {
     if let sym = NSImage(systemSymbolName: "scissors", accessibilityDescription: nil)?
         .withSymbolConfiguration(.init(pointSize: s * 0.30, weight: .bold)) {
         let tinted = NSImage(size: sym.size, flipped: false) { r in
-            sym.draw(in: r); NSColor.white.set(); r.fill(using: .sourceAtop); return true
+            sym.draw(in: r); NSColor.black.set(); r.fill(using: .sourceAtop); return true
         }
         let w = tinted.size.width, h = tinted.size.height
         tinted.draw(in: NSRect(x: s / 2 - w / 2, y: s / 2 - h / 2, width: w, height: h))
