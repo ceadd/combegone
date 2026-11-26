@@ -1,7 +1,7 @@
 # Third-party components
 
-combegone.app bundles these programs, built from source by `scripts/build-deps.sh`.
-Full license texts are in `Resources/Licenses/` and in the app under **combegone → About combegone**.
+ComBeGone.app bundles these programs, built from source by `scripts/build-deps.sh`.
+Full license texts are in `Resources/Licenses/` and in the app under **ComBeGone → About ComBeGone**.
 
 | Component | Version | License | Source |
 |---|---|---|---|

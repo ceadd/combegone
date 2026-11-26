@@ -82,7 +82,7 @@ private struct DetectionSettings: View {
             Section {
                 Toggle("Use custom detection settings", isOn: $custom)
                 Text(custom ? "These values override the settings file."
-                            : "Off: comskip uses its settings file as-is (the default that's been working).")
+                            : "Off: uses the built-in settings, tuned to catch more ads (recommended).")
                     .font(.callout).foregroundStyle(.secondary)
             }
 

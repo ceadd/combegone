@@ -10,7 +10,7 @@ struct Component: Identifiable {
 }
 
 let components: [Component] = [
-    Component(name: "combegone", version: Bundle.main.shortVersion, license: "GNU GPL v2 or later",
+    Component(name: "ComBeGone", version: Bundle.main.shortVersion, license: "GNU GPL v2 or later",
               url: "https://github.com/ceadd/combegone", file: "combegone"),
     Component(name: "Comskip", version: "0.83.001", license: "GNU GPL v2",
               url: "https://github.com/erikkaashoek/Comskip", file: "comskip"),
@@ -21,15 +21,15 @@ let components: [Component] = [
 ]
 
 struct AboutView: View {
-    @State private var selected: String = "combegone"
+    @State private var selected: String = "ComBeGone"
 
     var body: some View {
         VStack(spacing: 14) {
             VStack(spacing: 4) {
                 Image(nsImage: NSApp.applicationIconImage).resizable().frame(width: 72, height: 72)
-                Text("combegone").font(.title.weight(.semibold))
+                Text("ComBeGone").font(.title.weight(.semibold))
                 Text("Version \(Bundle.main.shortVersion)").foregroundStyle(.secondary)
-                Text("Removes commercials from TV recordings. Free and open source.")
+                Text("Commercials, be gone. Removes the ads from TV recordings.\nFree and open source.")
                     .font(.callout).multilineTextAlignment(.center)
                 Text("Made by CEADD (Chad L)")
                     .font(.callout.weight(.medium)).padding(.top, 2)
@@ -48,7 +48,7 @@ struct AboutView: View {
                     HStack {
                         Text("\(c.name) \(c.version)").font(.headline)
                         Spacer()
-                        if let u = URL(string: c.url) { Link(c.name == "combegone" ? "GitHub" : "Source", destination: u) }
+                        if let u = URL(string: c.url) { Link(c.name == "ComBeGone" ? "GitHub" : "Source", destination: u) }
                     }
                     Text(c.license).font(.subheadline).foregroundStyle(.secondary)
                     ScrollView {
