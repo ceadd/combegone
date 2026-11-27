@@ -13,7 +13,20 @@
   <a href="https://github.com/ceadd/combegone/releases/latest"><b>⬇︎ Download for Mac</b></a>
   &nbsp;·&nbsp; Apple Silicon · macOS 14+
   &nbsp;·&nbsp; Made by CEADD (Chad L)
+  &nbsp;·&nbsp; <a href="#-support-combegone">☕ Donate</a>
 </p>
+
+## ☕ Support ComBeGone
+
+> **ComBeGone is free, with no ads (obviously), no tracking, and no subscription. It's built and maintained by one person in their spare time.**
+>
+> If it's saved you from sitting through hours of commercials, consider sending a few bucks in Bitcoin. Every donation, however small, keeps updates coming: new fixes, better detection, and support for more channels.
+>
+> **Bitcoin:** `bc1qcz9j8l67glnq72xmxn82gctz2pc2wapq05cnyw`
+>
+> <details><summary>Show QR code</summary><br><img src="docs/images/bitcoin-qr.png" width="200" alt="Bitcoin QR code for bc1qcz9j8l67glnq72xmxn82gctz2pc2wapq05cnyw"></details>
+>
+> Not into crypto? A ⭐ on this repo helps more people find it, and that's free.
 
 <p align="center">
   <img src="docs/images/main-working.png" width="720" alt="ComBeGone removing commercials from a batch of recordings">
